@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>904382977310-49rcsccnd2flkqgtup2f0mddkv4df8jj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.904382977310-49rcsccnd2flkqgtup2f0mddkv4df8jj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>904382977310-2r0o8g9f6v2vp4sn93ir8dc64mop86mi.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcl9lK7mDFVq1r40W3jAU7zClZnpmFWdk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>904382977310</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.lavaant-taskapp-reactnative</string>
+	<key>PROJECT_ID</key>
+	<string>lavaant-task-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lavaant-task-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:904382977310:ios:8ea58af87e36add9b3250f</string>
+	<key>DATABASE_URL</key>
+	<string>https://lavaant-task-app.firebaseio.com</string>
+</dict>
+</plist>

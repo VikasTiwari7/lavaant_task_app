@@ -1,0 +1,464 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lavaant_taskapp_reactnative"
+4    android:versionCode="3"
+5    android:versionName="2.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:10:5-77
+11-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:10:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:6:5-66
+14-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:6:22-63
+15    <uses-permission android:name="android.permission.VIBRrecord_audioATE" />
+15-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:7:5-78
+15-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:7:22-75
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:8:7-67
+16-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:8:24-64
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:9:5-80
+17-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:react-native-firebase] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+18-->[:react-native-firebase] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:react-native-firebase] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+19-->[:react-native-firebase] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+20-->[com.facebook.flipper:flipper:0.41.0] /home/abc/.gradle/caches/transforms-2/files-2.1/3745795b3697d15298c1492093039a75/flipper-0.41.0/AndroidManifest.xml:16:5-76
+20-->[com.facebook.flipper:flipper:0.41.0] /home/abc/.gradle/caches/transforms-2/files-2.1/3745795b3697d15298c1492093039a75/flipper-0.41.0/AndroidManifest.xml:16:22-73
+21    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[:rn-fetch-blob] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+21-->[:rn-fetch-blob] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:26:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:11:5-68:19
+26        android:name="com.lavaant_taskapp_reactnative.MainApplication"
+26-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:12:7-38
+27        android:allowBackup="false"
+27-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:17:8-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/191b1d8d2b30dce3511ec3ffb3c8dce0/core-1.2.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:14:7-41
+31        android:label="@string/app_name"
+31-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:13:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:15:7-52
+33        android:supportsRtl="true"
+33-->[com.facebook.android:facebook-android-sdk:5.15.3] /home/abc/.gradle/caches/transforms-2/files-2.1/03bf6249af47e84fdf7d78e9fc9a7112/facebook-android-sdk-5.15.3/AndroidManifest.xml:28:18-44
+34        android:theme="@style/AppTheme"
+34-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:18:7-38
+35        android:usesCleartextTraffic="true" >
+35-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:16:8-43
+36        <activity
+36-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:19:7-29:18
+37            android:name="com.lavaant_taskapp_reactnative.MainActivity"
+37-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:20:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:22:9-86
+39            android:label="@string/app_name"
+39-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:21:9-41
+40            android:launchMode="singleTask"
+40-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:23:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:24:9-51
+42            <intent-filter>
+42-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:25:9-28:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:26:13-65
+43-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:26:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:27:13-73
+45-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:27:23-70
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" /> <!-- [START firebase_service] -->
+48-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:30:7-84
+48-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:30:17-81
+49        <!-- If we want to schedule local notifications, we must also add the following -->
+50        <receiver android:name="io.invertase.firebase.notifications.RNFirebaseNotificationReceiver" />
+50-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:33:5-98
+50-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:33:15-96
+51        <receiver
+51-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:34:7-44:18
+52            android:name="io.invertase.firebase.notifications.RNFirebaseNotificationsRebootReceiver"
+52-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:37:9-97
+53            android:enabled="true"
+53-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:35:9-31
+54            android:exported="true" >
+54-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:36:9-32
+55            <intent-filter>
+55-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:38:9-43:25
+56                <action android:name="android.intent.action.BOOT_COMPLETED" />
+56-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:39:11-72
+56-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:39:19-70
+57                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+57-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:40:11-75
+57-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:40:19-73
+58                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+58-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:41:11-75
+58-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:41:19-73
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:42:11-70
+60-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:42:21-67
+61            </intent-filter>
+62        </receiver>
+63        <receiver
+63-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:45:7-49:16
+64            android:name="io.invertase.firebase.notifications.RNFirebaseBackgroundNotificationActionReceiver"
+64-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:45:17-114
+65            android:exported="true" >
+65-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:45:115-138
+66            <intent-filter>
+66-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:46:7-48:23
+67                <action android:name="io.invertase.firebase.notifications.BackgroundAction" />
+67-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:47:9-86
+67-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:47:17-84
+68            </intent-filter>
+69        </receiver>
+70
+71        <service android:name="io.invertase.firebase.notifications.RNFirebaseBackgroundNotificationActionsService" /> <!-- Add this line for Message service -->
+71-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:50:5-113
+71-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:50:14-111
+72        <service android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService" >
+72-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:53:5-57:15
+72-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:53:14-87
+73            <intent-filter>
+73-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:54:7-56:23
+74                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+74-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:55:9-70
+74-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:55:17-67
+75            </intent-filter>
+76        </service>
+77        <service android:name="io.invertase.firebase.messaging.RNFirebaseInstanceIdService" >
+77-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:58:5-62:15
+77-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:58:14-88
+78            <intent-filter>
+78-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:59:5-61:23
+79                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+79-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:60:6-68
+79-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:60:14-66
+80            </intent-filter>
+81        </service> <!-- Add this line to enable backgound messaging services -->
+82        <service android:name="io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService" /> <!-- end of  firebase notification  service -->
+82-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:64:4-98
+82-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:64:13-96
+83        <meta-data
+83-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:67:6-104
+84            android:name="com.facebook.sdk.ApplicationId"
+84-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:67:17-62
+85            android:value="@string/facebook_app_id" />
+85-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:67:63-102
+86
+87        <service
+87-->[:react-native-firebase] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[:react-native-firebase] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:19.3.0] /home/abc/.gradle/caches/transforms-2/files-2.1/bd938dd3a60fd019e8895df63023ec19/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-messaging:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/248a1606411c01e7a8f8c42f9332c794/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:38:13-37
+91            <meta-data
+91-->[:react-native-firebase] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+92                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+92-->[:react-native-firebase] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:react-native-firebase] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-messaging:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/248a1606411c01e7a8f8c42f9332c794/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:39:13-41:85
+95                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+95-->[com.google.firebase:firebase-messaging:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/248a1606411c01e7a8f8c42f9332c794/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:40:17-119
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-messaging:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/248a1606411c01e7a8f8c42f9332c794/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:41:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:32:13-34:85
+98                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+98-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:33:17-96
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:34:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-datatransport:17.0.3] /home/abc/.gradle/caches/transforms-2/files-2.1/f657f895cb0ad5ee6ce7b4805207af07/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+101                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+101-->[com.google.firebase:firebase-datatransport:17.0.3] /home/abc/.gradle/caches/transforms-2/files-2.1/f657f895cb0ad5ee6ce7b4805207af07/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-datatransport:17.0.3] /home/abc/.gradle/caches/transforms-2/files-2.1/f657f895cb0ad5ee6ce7b4805207af07/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+103            <meta-data
+103-->[com.google.android.gms:play-services-measurement-api:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/290902b60ac78d89aa645bd0a79f7add/play-services-measurement-api-17.4.4/AndroidManifest.xml:30:13-32:85
+104                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+104-->[com.google.android.gms:play-services-measurement-api:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/290902b60ac78d89aa645bd0a79f7add/play-services-measurement-api-17.4.4/AndroidManifest.xml:31:17-139
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.android.gms:play-services-measurement-api:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/290902b60ac78d89aa645bd0a79f7add/play-services-measurement-api-17.4.4/AndroidManifest.xml:32:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-installations:16.3.2] /home/abc/.gradle/caches/transforms-2/files-2.1/d4fa9ae8f7b0112c59ca0d4a260f1536/firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+107                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+107-->[com.google.firebase:firebase-installations:16.3.2] /home/abc/.gradle/caches/transforms-2/files-2.1/d4fa9ae8f7b0112c59ca0d4a260f1536/firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-installations:16.3.2] /home/abc/.gradle/caches/transforms-2/files-2.1/d4fa9ae8f7b0112c59ca0d4a260f1536/firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+109        </service>
+110
+111        <provider
+111-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+112            android:name="com.imagepicker.FileProvider"
+112-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+113            android:authorities="com.lavaant_taskapp_reactnative.provider"
+113-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+114            android:exported="false"
+114-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+115            android:grantUriPermissions="true" >
+115-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+116            <meta-data
+116-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+117                android:name="android.support.FILE_PROVIDER_PATHS"
+117-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+118                android:resource="@xml/provider_paths" />
+118-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+119        </provider>
+120        <provider
+120-->[:react-native-webview] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+121            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+121-->[:react-native-webview] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+122            android:authorities="com.lavaant_taskapp_reactnative.fileprovider"
+122-->[:react-native-webview] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+123            android:exported="false"
+123-->[:react-native-webview] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+124            android:grantUriPermissions="true" >
+124-->[:react-native-webview] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+125            <meta-data
+125-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+126                android:name="android.support.FILE_PROVIDER_PATHS"
+126-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+127                android:resource="@xml/file_provider_paths" />
+127-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+128        </provider>
+129        <provider
+129-->[:rn-fetch-blob] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+130            android:name="com.RNFetchBlob.Utils.FileProvider"
+130-->[:rn-fetch-blob] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+131            android:authorities="com.lavaant_taskapp_reactnative.provider"
+131-->[:rn-fetch-blob] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+132            android:exported="false"
+132-->[:rn-fetch-blob] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+133            android:grantUriPermissions="true" >
+133-->[:rn-fetch-blob] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+134            <meta-data
+134-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+135                android:name="android.support.FILE_PROVIDER_PATHS"
+135-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+136                android:resource="@xml/provider_paths" />
+136-->[:react-native-image-picker] /home/abc/Desktop/lavaant_taskapp_reactnative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+137        </provider>
+138
+139        <activity
+139-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:30:9-33:66
+140            android:name="com.facebook.FacebookActivity"
+140-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:31:13-57
+141            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+141-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:32:13-96
+142            android:theme="@style/com_facebook_activity_theme" />
+142-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:33:13-63
+143        <activity android:name="com.facebook.CustomTabMainActivity" />
+143-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:34:9-71
+143-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:34:19-68
+144        <activity
+144-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:35:9-49:20
+145            android:name="com.facebook.CustomTabActivity"
+145-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:36:13-58
+146            android:exported="true" >
+146-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:37:13-36
+147            <intent-filter>
+147-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:39:13-48:29
+148                <action android:name="android.intent.action.VIEW" />
+148-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:40:17-69
+148-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:40:25-66
+149
+150                <category android:name="android.intent.category.DEFAULT" />
+150-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:42:11-70
+150-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:42:21-67
+151                <category android:name="android.intent.category.BROWSABLE" />
+151-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:43:17-78
+151-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:43:27-75
+152
+153                <data
+153-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:45:17-47:50
+154                    android:host="cct.com.lavaant_taskapp_reactnative"
+154-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:46:21-56
+155                    android:scheme="fbconnect" />
+155-->[com.facebook.android:facebook-common:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/ca1b28fdad370ed7e36f93fa8f456397/facebook-common-7.1.0/AndroidManifest.xml:47:21-47
+156            </intent-filter>
+157        </activity>
+158        <!--
+159             FirebaseMessagingService performs security checks at runtime,
+160             but set to not exported to explicitly avoid allowing another app to call it.
+161        -->
+162        <service
+162-->[com.google.firebase:firebase-messaging:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/248a1606411c01e7a8f8c42f9332c794/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:28:9-35:19
+163            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+163-->[com.google.firebase:firebase-messaging:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/248a1606411c01e7a8f8c42f9332c794/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:29:13-82
+164            android:directBootAware="true"
+164-->[com.google.firebase:firebase-messaging:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/248a1606411c01e7a8f8c42f9332c794/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:30:13-43
+165            android:exported="false" >
+165-->[com.google.firebase:firebase-messaging:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/248a1606411c01e7a8f8c42f9332c794/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:31:13-37
+166            <intent-filter android:priority="-500" >
+166-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:54:7-56:23
+167                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+167-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:55:9-70
+167-->/home/abc/Desktop/lavaant_taskapp_reactnative/android/app/src/main/AndroidManifest.xml:55:17-67
+168            </intent-filter>
+169        </service>
+170
+171        <receiver
+171-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:37:9-44:20
+172            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+172-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:38:13-78
+173            android:exported="true"
+173-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:39:13-36
+174            android:permission="com.google.android.c2dm.permission.SEND" >
+174-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:40:13-73
+175            <intent-filter>
+175-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:41:13-43:29
+176                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+176-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:42:17-81
+176-->[com.google.firebase:firebase-iid:20.2.3] /home/abc/.gradle/caches/transforms-2/files-2.1/5bfdb8f65140c9698f865f7148f0562f/firebase-iid-20.2.3/AndroidManifest.xml:42:25-78
+177            </intent-filter>
+178        </receiver>
+179
+180        <activity
+180-->[com.google.android.gms:play-services-base:17.2.1] /home/abc/.gradle/caches/transforms-2/files-2.1/c0908282690cd0bf3b1b7aa241f3c3ab/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+181            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+181-->[com.google.android.gms:play-services-base:17.2.1] /home/abc/.gradle/caches/transforms-2/files-2.1/c0908282690cd0bf3b1b7aa241f3c3ab/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-base:17.2.1] /home/abc/.gradle/caches/transforms-2/files-2.1/c0908282690cd0bf3b1b7aa241f3c3ab/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.android.gms:play-services-base:17.2.1] /home/abc/.gradle/caches/transforms-2/files-2.1/c0908282690cd0bf3b1b7aa241f3c3ab/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+184        <!--
+185         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+186         with the application context. This config is merged in with the host app's manifest,
+187         but there can only be one provider with the same authority activated at any given
+188         point; so if the end user has two or more different apps that use Facebook SDK, only the
+189         first one will be able to use the provider. To work around this problem, we use the
+190         following placeholder in the authority to identify each host application as if it was
+191         a completely different provider.
+192        -->
+193        <provider
+193-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:39:9-42:40
+194            android:name="com.facebook.internal.FacebookInitProvider"
+194-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:40:13-70
+195            android:authorities="com.lavaant_taskapp_reactnative.FacebookInitProvider"
+195-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:41:13-72
+196            android:exported="false" />
+196-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:42:13-37
+197
+198        <receiver
+198-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:44:9-50:20
+199            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+199-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:45:13-86
+200            android:exported="false" >
+200-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:46:13-37
+201            <intent-filter>
+201-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:47:13-49:29
+202                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+202-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:48:17-95
+202-->[com.facebook.android:facebook-core:7.1.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7fd0d7af7cf02612cddfce424be08e7c/jetified-facebook-core-7.1.0/AndroidManifest.xml:48:25-92
+203            </intent-filter>
+204        </receiver>
+205
+206        <service
+206-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+207            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+207-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+208            android:exported="false" >
+208-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+209            <meta-data
+209-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+210                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+210-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+211                android:value="cct" />
+211-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/579aadedb57581780ee73635c0aef2f4/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+212        </service>
+213        <service
+213-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+214            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+214-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+215            android:exported="false"
+215-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+216            android:permission="android.permission.BIND_JOB_SERVICE" >
+216-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+217        </service>
+218
+219        <receiver
+219-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+220            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+220-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+221            android:exported="false" />
+221-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/abc/.gradle/caches/transforms-2/files-2.1/7d2291c29c7a6f87a454b865dc2f1866/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+222
+223        <provider
+223-->[com.google.firebase:firebase-common:19.3.0] /home/abc/.gradle/caches/transforms-2/files-2.1/bd938dd3a60fd019e8895df63023ec19/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+224            android:name="com.google.firebase.provider.FirebaseInitProvider"
+224-->[com.google.firebase:firebase-common:19.3.0] /home/abc/.gradle/caches/transforms-2/files-2.1/bd938dd3a60fd019e8895df63023ec19/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+225            android:authorities="com.lavaant_taskapp_reactnative.firebaseinitprovider"
+225-->[com.google.firebase:firebase-common:19.3.0] /home/abc/.gradle/caches/transforms-2/files-2.1/bd938dd3a60fd019e8895df63023ec19/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+226            android:exported="false"
+226-->[com.google.firebase:firebase-common:19.3.0] /home/abc/.gradle/caches/transforms-2/files-2.1/bd938dd3a60fd019e8895df63023ec19/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+227            android:initOrder="100" />
+227-->[com.google.firebase:firebase-common:19.3.0] /home/abc/.gradle/caches/transforms-2/files-2.1/bd938dd3a60fd019e8895df63023ec19/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+228
+229        <receiver
+229-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:29:9-33:20
+230            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+230-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:30:13-85
+231            android:enabled="true"
+231-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:31:13-35
+232            android:exported="false" >
+232-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:32:13-37
+233        </receiver>
+234
+235        <service
+235-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:35:9-38:40
+236            android:name="com.google.android.gms.measurement.AppMeasurementService"
+236-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:36:13-84
+237            android:enabled="true"
+237-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:37:13-35
+238            android:exported="false" />
+238-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:38:13-37
+239        <service
+239-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:39:9-43:72
+240            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+240-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:40:13-87
+241            android:enabled="true"
+241-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:41:13-35
+242            android:exported="false"
+242-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:42:13-37
+243            android:permission="android.permission.BIND_JOB_SERVICE" />
+243-->[com.google.android.gms:play-services-measurement:17.4.4] /home/abc/.gradle/caches/transforms-2/files-2.1/d6c7d62b20c5f57218b0b402dcfb5f3b/play-services-measurement-17.4.4/AndroidManifest.xml:43:13-69
+244
+245        <meta-data
+245-->[com.google.android.gms:play-services-basement:17.2.1] /home/abc/.gradle/caches/transforms-2/files-2.1/897d9354aa9050271ab63f369d60ce00/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+246            android:name="com.google.android.gms.version"
+246-->[com.google.android.gms:play-services-basement:17.2.1] /home/abc/.gradle/caches/transforms-2/files-2.1/897d9354aa9050271ab63f369d60ce00/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+247            android:value="@integer/google_play_services_version" />
+247-->[com.google.android.gms:play-services-basement:17.2.1] /home/abc/.gradle/caches/transforms-2/files-2.1/897d9354aa9050271ab63f369d60ce00/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+248    </application>
+249
+250</manifest>

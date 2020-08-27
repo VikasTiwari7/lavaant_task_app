@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "904382977310",
+    "firebase_url": "https://lavaant-task-app.firebaseio.com",
+    "project_id": "lavaant-task-app",
+    "storage_bucket": "lavaant-task-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904382977310:android:878b2b9028fdc392b3250f",
+        "android_client_info": {
+          "package_name": "com.lavaant_taskapp_reactnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904382977310-2r0o8g9f6v2vp4sn93ir8dc64mop86mi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lavaant_taskapp_reactnative",
+            "certificate_hash": "e85e96cd0e7e2731bb7e3dcfba81b46e9ed8ed4e"
+          }
+        },
+        {
+          "client_id": "904382977310-dgphuhlmu8539n72429umgsddf5mgimr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQuN2Gv5CeVs36nwoF35J_AT439s8L_R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904382977310-dgphuhlmu8539n72429umgsddf5mgimr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
